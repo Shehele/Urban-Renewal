@@ -1,0 +1,321 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo img {
+    max-width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+#hero {
+    background-image:url('hero-image.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1,h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.contact-form- label {
+    margin-top: 10px;
+}
+
+.contact-form input,form textarea,form button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.contact-form button {
+    background-color: #4caf50;
+    width: 100%;
+    padding: 10px;
+    color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.customer-service, .company-location {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal styles */
+.modal {
+    display: none;/* Hidden by default */
+    position: fixed;/* Stay in place */
+    z-index: 1;/* sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;/* Full width */
+    height: 100%;/* Full height */
+    overflow: auto;/* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);/* Black w/ opacity */
+}
+
+.madal-content {
+    background-color: #fefefe;
+    margin: 15% auto;/* 15% from the top and centered */
+    padding: 20px;
+    border:1px solid #888;
+    width: 80%;/*Could be more or less,depending on screen size */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body,h1,h2,h3,p,ul,li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+header nav ul li {
+    margin: 0.1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover,header nav ul li a.active{
+    color: #f4f4f4;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem 0;
+}
+
+.pricing {
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.pricing p {
+    margin-bottom: 1rem;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.pricing-plan {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.pricing-plan h3 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.pricing-plan .price {
+    font-size: 1.5 rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.pricing-plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-plan ul li {
+    margin-bottom: 0.5rem;
+}
+
+.services {
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.services p {
+    margin-bottom: 1rem;
+}
+
+.services-item {
+    margin-bottom: 2rem;
+}
+
+.services-item h3 {
+    color: #555;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.services-item ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.about-us {
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.about-us h3 {
+    color: #555;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-us p {
+    margin-bottom: 1rem;
+}
+
+.blog-post {
+    background: #fff;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.blog-post P{
+    margin-bottom: 1rem;
+}

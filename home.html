@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>URBAN RENEWAL LIMITED</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Holla! Wecome to Urban Renewal Limited</h2>
+        <p>Your trusted patner in waste management.</p>
+    </section>
+    <section id="Services">
+        <h2>Our Services</h2>
+        <p>Explore our wide range of waste management services.</p>
+    </section>
+    <section id="login">
+        <h2>Login/Create Account</h2>
+        <div class="form-container">
+            <form id="loginForm">
+                <h3>Login</h3>
+                <input type="text" id="loginUsername" placeholder="Username" required>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <button type="button" onclick="login()">Login</button>
+            </form>
+
+            <form id="createAccountForm">
+                <h3>Create Account</h3>
+                <input type="text" id="createUsername" placeholder="Username" required>
+                <input type="password" id="createPassword" placeholder="Password" required>
+                <button type="button" onclick="createAccount()">CreateAccount</button>
+            </form>
+        </div>
+    </section>
+    <section id="Pricing">
+        <h2>Pricing</h2>
+        <p>Have a view of our pricing plan and choose the one that fits your needs.</p>
+        <button id="showPaymentModal">Make Payment</button>
+    </section>
+    <section id="contacts">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="customer-service">
+            <h3>Customer Service</h3>
+            <p>Email:sheheleemmanuel@gmail.com</p>
+            <p>Phone:+254758465693</p>
+        </div>
+        <div class="company-location">
+            <h3>Our Location</h3>
+            <p>134 Industrial Area,Nairobi</p>
+        </div>
+        <p>Get in touch with us to learn more about our services.</p>
+    </section>
+    <footer>
+        <p>&copy;2024 Urban Renewal Limited.All rights reserved.</p>
+    </footer>
+        <div id="PaymentModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Payment Partners</h2>
+                <p>Choose your preferred payment method:</p>
+                <button id="paypalBtn">PayPal</button>
+                <button id="kcbBtn">KCB</button>
+                <button id="google payBtn">Google Pay</button>
+                <button id="stripeBtn">Stripe</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
